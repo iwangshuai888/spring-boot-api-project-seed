@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hmhub.mapper.TbJokeMapper">
+    <resultMap id="BaseResultMap" type="com.hmhub.entity.TbJoke">
+        <id column="id" jdbcType="BIGINT" property="id" />
+        <result column="customer_id" jdbcType="VARCHAR" property="customerId" />
+        <result column="title" jdbcType="VARCHAR" property="title" />
+        <result column="img" jdbcType="VARCHAR" property="img" />
+        <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+        <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    </resultMap>
+    <sql id="Base_Column_List">
+    id, customer_id, title, img, create_time, update_time
+  </sql>
+</mapper>
