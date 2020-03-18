@@ -1,4 +1,4 @@
 ###
-GET {{test}}/getTestNew
+GET {{test}}/updateJoke
 
 ###

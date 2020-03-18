@@ -2,6 +2,7 @@ package com.hmhub.controller;
 
 
 import com.hmhub.common.constants.RequestMappingConstant;
+import com.hmhub.service.ITbJokeService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.validation.annotation.Validated;
@@ -28,10 +29,17 @@ import java.util.Map;
 @Validated
 public class TbJokeController {
 
+    private final ITbJokeService iTbJokeService;
+
     @GetMapping(value = "/findJoke")
     public Map<String, Object> findJoke() {
         Map<String, Object> resultMap = new HashMap<>(4, 0.9F);
         resultMap.put("key", "value");
         return resultMap;
+    }
+
+    @GetMapping(value = "/updateJoke")
+    public void updateJoke() {
+        iTbJokeService.updateJoke();
     }
 }

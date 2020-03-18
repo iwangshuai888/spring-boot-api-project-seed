@@ -13,4 +13,5 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 public interface ITbJokeService extends IService<TbJoke> {
 
+    void updateJoke();
 }

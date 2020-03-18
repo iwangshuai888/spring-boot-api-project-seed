@@ -11,3 +11,7 @@ spring:
         url: jdbc:mysql://localhost:3306/hmhub?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
         username: fancyit_outter
         password: Fancyit_2019_Sc%uAu%*]$-qfr[h
+
+jingdong:
+    appkey: a8be2a9da7edbb3b1fe95c07578ad43d
+    jokeUrl: https://way.jd.com/showapi/dtgxt
