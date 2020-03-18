@@ -94,13 +94,6 @@
             <artifactId>fastjson</artifactId>
             <version>1.2.47</version>
         </dependency>
-        <!--阿里 Druid Spring Boot Starter依赖-->
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>druid-spring-boot-starter</artifactId>
-        </dependency>
-        <!--代码生成器依赖-->
-
     </dependencies>
 
     <build>
