@@ -1,0 +1,13 @@
+server:
+    port: 9999
+    error:
+        path: /hmhub/error
+        response-json-include-trace: false
+
+
+spring:
+    #数据库连接信息
+    datasource:
+        url: jdbc:mysql://localhost:3306/hmhub?useUnicode=true&characterEncoding=utf8&useSSL=false&serverTimezone=Asia/Shanghai
+        username: fancyit_outter
+        password: Fancyit_2019_Sc%uAu%*]$-qfr[h
